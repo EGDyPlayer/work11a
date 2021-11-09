@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flag_bg {
+    width: 80%;
+    height: 600px;
+    background:linear-gradient(rgb(175, 175, 175), #fff);
+    border: 2px solid rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag_circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background:linear-gradient(rgb(117, 0, 0), red);
+}
+.text {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+}
